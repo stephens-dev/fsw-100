@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+}
+#headline{
+    font-family: Georgia;
+    color: darkgreen;
+    text-align: center;
+}
+p{
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+}
+#link{
+    text-transform: uppercase;
+}
+a:hover{
+text-decoration: underline;
+}
+img{
+    float: left;
+    padding-right: 20px;
+}
+.container-1{
+    display:flex;
+    text-align: left;
+}
