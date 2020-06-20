@@ -1,0 +1,62 @@
+main{
+    background-color: lightgray;
+}
+.navbar {
+    overflow: hidden;
+    background-color:lightblue;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    text-align: center;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+display: inline-block;
+margin: 0 25px;
+text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: darkred;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+h6{
+    grid-area: h6;
+    text-align: center;
+}
+h1{
+    grid-area: h1;
+    text-align: center;
+}
+img{
+    grid-area: img;
+}
+p{
+    grid-area: p;
+}
+.blog1, .blog2, .blog3{
+
+    display: grid;
+    grid-template-areas: 
+    'img h1 h1 h1 h1'
+    'img h6 h6 h6 h6'
+    'img p p p p'
+    'img p p p p';
+margin: 5% 25%;
+background-color: white;
+}
+img{
+    height: 500px;
+    width: 200px;
+    padding: 10px;
+    padding-right: 25px;
+}
+
