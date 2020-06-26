@@ -1,0 +1,93 @@
+.navbar {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: red;
+
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+.head{
+    font-family: Piedra;
+    font-size: 70px;
+}
+img {
+    height: 200px;
+    width: auto;
+}
+
+.nav {
+
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+
+}
+
+form {
+    grid-area: form;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: red;
+    width: 200px;
+    margin: 50px;
+    margin-left: 100px;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
+
+}
+
+.breakfast {
+    grid-column: 1/3;
+    text-decoration: solid underline;
+}
+
+#button {
+    width: 60px;
+    margin-top: 8px;
+    grid-column: 1/3;
+}
+
+.bait {
+    grid-area: bait;
+   width: 400px;
+   margin-left: 250px;
+}
+.baitpic{
+margin-left: 30px;}
+
+body {
+    display: grid;
+    grid-template-areas:
+        'nav nav nav nav'
+        'main main main main';
+    background-color: lightgreen;
+}
+
+main {
+    display: grid;
+    grid-area: main;
+    grid-template-areas:
+        'form form bait bait';
+}
+
+footer {
+    margin-left: 500px;
+    
+
+}
