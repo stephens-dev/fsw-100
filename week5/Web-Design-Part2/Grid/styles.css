@@ -1,0 +1,60 @@
+.Grid1{
+    display: grid;
+    grid-template-areas: 'r r b b'
+                         'g p p p'
+                         'y y y y';
+}
+.Grid1 > div{
+    padding: 50px 0;
+    margin: 10px;
+    border-radius: 25px;
+}
+.box1{
+grid-area: r;
+background-color: darkred;
+}
+.box2{
+grid-area: b;
+background-color: darkblue;
+}
+.box3{
+grid-area: g;
+background-color: darkgreen;
+}
+.box4{
+grid-area: p;
+background-color: darksalmon;
+}
+.box5{
+grid-area: y;
+background-color: darkgrey;
+}
+
+.Grid2{
+    display: grid;
+    grid-template-areas: 'a a a a '
+                         'b b c c '
+                         'b b d d ';
+                         margin-top: 200px;
+}
+.Grid2 > div{
+    padding: 100px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.box6{
+grid-area: a;
+background-color: turquoise;
+}
+.box7{
+grid-area: b;
+background-color: limegreen;
+}
+.box8{
+grid-area: c;
+background-color: magenta;
+}
+.box9{
+grid-area: d;
+background-color: black;
+}

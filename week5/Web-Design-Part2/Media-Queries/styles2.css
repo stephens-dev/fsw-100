@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-areas: 'head head head head' 
+                         'side1 side1 side1 side1'
+                         'main main main main'
+                         'side2 side2 side2 side2'
+                         'foot foot foot foot';
+    background-color: lightgray;
+    grid-gap: 20px;
+}
+.head{
+    grid-area: head;
+    justify-self: center;
+    background-color: gray;
+}
+.side1{
+    grid-area: side1;
+    background-color: lightblue;
+}
+main{
+    grid-area: main;
+    background-color: lightblue;
+}
+.side2{
+    grid-area: side2;
+    background-color: lightgray;
+}
+footer{
+    grid-area: foot;
+    background-color: gray;
+}
+@media only screen and (min-width: 800px){
+    body{
+        display: grid;
+        grid-template-areas: 'head head head head'
+                             'side1 main main main'
+                             'side2 side2 side2 side2'
+                             'foot foot foot foot';
+    }
+}
+@media only screen and (min-width: 1200px){
+    body{
+        display: grid;
+        grid-template-areas: 'head head head head'
+                             'side1 main main side2'
+                             'foot foot foot foot';
+    }
+}
