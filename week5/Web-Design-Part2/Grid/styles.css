@@ -34,7 +34,7 @@ background-color: darkgrey;
     display: grid;
     grid-template-areas: 'a a a a '
                          'b b c c '
-                         'b b d d ';
+                         'b b d e ';
                          margin-top: 200px;
 }
 .Grid2 > div{
@@ -57,4 +57,8 @@ background-color: magenta;
 .box9{
 grid-area: d;
 background-color: black;
+}
+.box10{
+    grid-area: e;
+    background-color: black;
 }

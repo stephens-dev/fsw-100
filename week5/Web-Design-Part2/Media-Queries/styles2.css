@@ -10,8 +10,9 @@ body{
 }
 .head{
     grid-area: head;
-    justify-self: center;
+    text-align: center;
     background-color: gray;
+    width: 100%;
 }
 .side1{
     grid-area: side1;
@@ -23,7 +24,7 @@ main{
 }
 .side2{
     grid-area: side2;
-    background-color: lightgray;
+    background-color: lightblue;
 }
 footer{
     grid-area: foot;
