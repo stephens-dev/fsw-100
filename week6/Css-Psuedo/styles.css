@@ -1,0 +1,62 @@
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    justify-content: space-evenly;
+}
+main > div{
+    height: 200px;
+    width: 200px;
+}
+.box1{
+    background-color: red;
+    color: red;
+    text-align: center;
+    transition-duration: 1s;
+}
+.box1:hover{
+background-color: violet;
+color: blue;
+}
+.box2{
+    background-color: blue;
+    color: blue;
+    text-align: center;
+    transition-duration: 1s;
+}
+.box2:hover{
+color: red;
+height: 300px;
+width: 300px;
+}
+.box3{
+    background-color: green;
+    transition-duration: 1s;
+}
+.box3:hover{
+    border-radius: 25px;
+    height: 100px;
+}
+.box4{
+    background-color: yellow;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.box4:hover{
+    background-color: yellowgreen;
+}
+.box5{
+    background-color: teal;
+    transition-duration: 1s;
+}
+.box5:hover{
+    opacity: 0.0;
+}
+.box6{
+    background-color: turquoise;
+    transition-delay: 1s;
+}
+.box6:hover{
+    background-color: tomato;
+    height: 250px;
+}
