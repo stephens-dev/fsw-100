@@ -1,0 +1,81 @@
+body {
+    background-color: green;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: lightblue;
+    grid-column: 1 / 5;
+    width: 100%;
+    text-align: center;
+    font-family: Lato;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 25px;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: darkred;
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+}
+
+
+.Oil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1/5;
+    text-align: center;
+}
+
+.tire {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+.dot {
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+img {
+    grid-column: 1 / 2;
+    width: 100%;
+
+}
+
+footer {
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1200px) {
+    img {
+        height: 500px;
+    }
+}
