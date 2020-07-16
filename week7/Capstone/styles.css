@@ -1,0 +1,95 @@
+body{
+    font-family: 'Alegreya SC', serif;
+}
+.navbar {
+    background-image: url(flag.jfif);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+
+}
+
+ul {
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+a:hover{
+    font-size: xx-large;
+}
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #336633;
+    text-align: center;
+}
+
+.shop {
+    width: 100%;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    border: white solid 2px;
+    margin-bottom:  10px;
+}
+
+.con {
+    height: auto;
+    width: 100%;
+}
+
+.history {
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+.shop{
+    height: 400px;
+}
+.con{
+    height: 400px;
+}
+}
+@media only screen and (min-width: 1200px){
+.shop{
+    height: auto;
+}
+.con{
+    height: auto;
+}
+}
